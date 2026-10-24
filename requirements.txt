@@ -21,9 +21,9 @@ attrs==26.1.0
     #   referencing
 audioop-lts==0.2.2 ; python_full_version >= '3.13'
     # via gradio
-brotli==1.2.0
+brotli==1.2.1
     # via gradio
-certifi==2026.7.22
+certifi==2026.10.19
     # via
     #   httpcore
     #   httpx
@@ -50,7 +50,7 @@ fastapi==0.142.2
     # via
     #   nougen-shards (pyproject.toml)
     #   gradio
-filelock==3.32.5
+filelock==4.1.0
     # via huggingface-hub
 fsspec==2026.9.0
     # via
@@ -161,7 +161,7 @@ ollama==0.6.2
     # via nougen-shards (pyproject.toml)
 openai==3.23.0
     # via nougen-shards (pyproject.toml)
-opentelemetry-api==1.44.0
+opentelemetry-api==1.45.1
     # via
     #   google-api-core
     #   mcp
@@ -204,7 +204,7 @@ pydub==0.25.1
     # via gradio
 pygments==2.21.0
     # via rich
-pyjwt==2.15.0
+pyjwt==2.15.1
     # via mcp
 pyparsing==3.3.3
     # via httplib2
